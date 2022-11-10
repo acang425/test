@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\Engine">
+      <UniqueIdentifier>{de095081-f083-4920-a9aa-1179afe34747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game">
+      <UniqueIdentifier>{c09789a9-b688-4297-8887-4c69c3db1764}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLogic.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlayer.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoader.cpp">
+      <Filter>源文件\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>源文件\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>源文件\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPipeline3D.cpp">
+      <Filter>源文件\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture2D.cpp">
+      <Filter>源文件\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyConsoleEngine.h">
+      <Filter>源文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLogic.h">
+      <Filter>源文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGame.h">
+      <Filter>源文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlayer.h">
+      <Filter>源文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoader.h">
+      <Filter>源文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>源文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Types_def.h">
+      <Filter>源文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>源文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPipeline3D.h">
+      <Filter>源文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>源文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>源文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture2D.h">
+      <Filter>源文件\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

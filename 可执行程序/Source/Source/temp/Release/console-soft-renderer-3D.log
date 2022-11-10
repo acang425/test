@@ -1,0 +1,28 @@
+﻿  BaseLogic.cpp
+D:\100-洪家欣、陈鹏-可莉大冒险\可执行程序\Source\Source\BaseLogic.cpp(134,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\100-洪家欣、陈鹏-可莉大冒险\可执行程序\Source\Source\BaseLogic.cpp(258,26): warning C4244: “=”: 从“UINT”转换到“float”，可能丢失数据
+D:\100-洪家欣、陈鹏-可莉大冒险\可执行程序\Source\Source\BaseLogic.cpp(283,57): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Camera.cpp
+  MyGame.cpp
+  MyPlayer.cpp
+  Mesh.cpp
+D:\100-洪家欣、陈鹏-可莉大冒险\可执行程序\Source\Source\Mesh.cpp(158,26): warning C4267: “return”: 从“size_t”转换到“UINT”，可能丢失数据
+  Picture2D.cpp
+  RenderPipeline3D.cpp
+D:\100-洪家欣、陈鹏-可莉大冒险\可执行程序\Source\Source\RenderPipeline3D.cpp(226,72): warning C4267: “初始化”: 从“size_t”转换到“UINT”，可能丢失数据
+D:\100-洪家欣、陈鹏-可莉大冒险\可执行程序\Source\Source\RenderPipeline3D.cpp(295,33): warning C4018: “>=”: 有符号/无符号不匹配
+  Math.cpp
+  FileLoader.cpp
+D:\100-洪家欣、陈鹏-可莉大冒险\可执行程序\Source\Source\FileLoader.cpp(91,56): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=std::seed_seq::result_type
+          ]
+  main.cpp
+  Renderer.cpp
+  正在生成代码
+  901 of 932 functions (96.7%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  console-soft-renderer-3D.vcxproj -> D:\100-洪家欣、陈鹏-可莉大冒险\可执行程序\Source\Source\Exec\Release\ShootTheChicken-x64.exe.exe
